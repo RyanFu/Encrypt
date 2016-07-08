@@ -15,6 +15,7 @@
 		884CDE261D2F83E80038A19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884CDE241D2F83E80038A19B /* LaunchScreen.storyboard */; };
 		884CDE311D2F83E80038A19B /* MD5__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CDE301D2F83E80038A19B /* MD5__Tests.m */; };
 		884CDE3C1D2F83E90038A19B /* MD5__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CDE3B1D2F83E90038A19B /* MD5__UITests.m */; };
+		884CDE4B1D2F84400038A19B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CDE4A1D2F84400038A19B /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		884CDE371D2F83E90038A19B /* MD5加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD5加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884CDE3B1D2F83E90038A19B /* MD5__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5__UITests.m; sourceTree = "<group>"; };
 		884CDE3D1D2F83E90038A19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884CDE491D2F84400038A19B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		884CDE4A1D2F84400038A19B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				884CDE1A1D2F83E80038A19B /* AppDelegate.m */,
 				884CDE1C1D2F83E80038A19B /* ViewController.h */,
 				884CDE1D1D2F83E80038A19B /* ViewController.m */,
+				884CDE491D2F84400038A19B /* NSString+MD5.h */,
+				884CDE4A1D2F84400038A19B /* NSString+MD5.m */,
 				884CDE1F1D2F83E80038A19B /* Main.storyboard */,
 				884CDE221D2F83E80038A19B /* Assets.xcassets */,
 				884CDE241D2F83E80038A19B /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				884CDE1E1D2F83E80038A19B /* ViewController.m in Sources */,
 				884CDE1B1D2F83E80038A19B /* AppDelegate.m in Sources */,
+				884CDE4B1D2F84400038A19B /* NSString+MD5.m in Sources */,
 				884CDE181D2F83E80038A19B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
