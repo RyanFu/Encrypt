@@ -15,7 +15,13 @@
 		884CDE261D2F83E80038A19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884CDE241D2F83E80038A19B /* LaunchScreen.storyboard */; };
 		884CDE311D2F83E80038A19B /* MD5__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CDE301D2F83E80038A19B /* MD5__Tests.m */; };
 		884CDE3C1D2F83E90038A19B /* MD5__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CDE3B1D2F83E90038A19B /* MD5__UITests.m */; };
-		884CDE4B1D2F84400038A19B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CDE4A1D2F84400038A19B /* NSString+MD5.m */; };
+		88D8B1E61DA8E53F0055BB39 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8B1E41DA8E53F0055BB39 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88D8B20A1DA8E5BE0055BB39 /* CusMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8B2091DA8E5BE0055BB39 /* CusMD5.m */; };
+		88D8B2131DA8E5CD0055BB39 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8B20C1DA8E5CD0055BB39 /* AESCrypt.m */; };
+		88D8B2141DA8E5CD0055BB39 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8B20E1DA8E5CD0055BB39 /* NSData+Base64.m */; };
+		88D8B2151DA8E5CD0055BB39 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8B2101DA8E5CD0055BB39 /* NSData+CommonCrypto.m */; };
+		88D8B2161DA8E5CD0055BB39 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D8B2121DA8E5CD0055BB39 /* NSString+Base64.m */; };
+		88D8B2181DA8E7C70055BB39 /* 1111.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D8B2171DA8E7C70055BB39 /* 1111.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		884CDE131D2F83E80038A19B /* MD5加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MD5加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884CDE131D2F83E80038A19B /* 加密与解密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加密与解密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884CDE171D2F83E80038A19B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		884CDE191D2F83E80038A19B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		884CDE1A1D2F83E80038A19B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,14 +52,26 @@
 		884CDE221D2F83E80038A19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884CDE251D2F83E80038A19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		884CDE271D2F83E80038A19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		884CDE2C1D2F83E80038A19B /* MD5加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD5加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884CDE2C1D2F83E80038A19B /* 加密与解密.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密与解密.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884CDE301D2F83E80038A19B /* MD5__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5__Tests.m; sourceTree = "<group>"; };
 		884CDE321D2F83E90038A19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		884CDE371D2F83E90038A19B /* MD5加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD5加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884CDE371D2F83E90038A19B /* 加密与解密.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密与解密.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884CDE3B1D2F83E90038A19B /* MD5__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5__UITests.m; sourceTree = "<group>"; };
 		884CDE3D1D2F83E90038A19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		884CDE491D2F84400038A19B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		884CDE4A1D2F84400038A19B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		88D8B1E31DA8E53F0055BB39 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		88D8B1E41DA8E53F0055BB39 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		88D8B1E51DA8E53F0055BB39 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		88D8B2081DA8E5BE0055BB39 /* CusMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusMD5.h; sourceTree = "<group>"; };
+		88D8B2091DA8E5BE0055BB39 /* CusMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusMD5.m; sourceTree = "<group>"; };
+		88D8B20B1DA8E5CD0055BB39 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		88D8B20C1DA8E5CD0055BB39 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		88D8B20D1DA8E5CD0055BB39 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		88D8B20E1DA8E5CD0055BB39 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		88D8B20F1DA8E5CD0055BB39 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		88D8B2101DA8E5CD0055BB39 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		88D8B2111DA8E5CD0055BB39 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		88D8B2121DA8E5CD0055BB39 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		88D8B2171DA8E7C70055BB39 /* 1111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1111.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +102,7 @@
 		884CDE0A1D2F83E80038A19B = {
 			isa = PBXGroup;
 			children = (
-				884CDE151D2F83E80038A19B /* MD5加密 */,
+				884CDE151D2F83E80038A19B /* 加密与解密 */,
 				884CDE2F1D2F83E80038A19B /* MD5加密Tests */,
 				884CDE3A1D2F83E90038A19B /* MD5加密UITests */,
 				884CDE141D2F83E80038A19B /* Products */,
@@ -94,28 +112,29 @@
 		884CDE141D2F83E80038A19B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				884CDE131D2F83E80038A19B /* MD5加密.app */,
-				884CDE2C1D2F83E80038A19B /* MD5加密Tests.xctest */,
-				884CDE371D2F83E90038A19B /* MD5加密UITests.xctest */,
+				884CDE131D2F83E80038A19B /* 加密与解密.app */,
+				884CDE2C1D2F83E80038A19B /* 加密与解密.xctest */,
+				884CDE371D2F83E90038A19B /* 加密与解密.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		884CDE151D2F83E80038A19B /* MD5加密 */ = {
+		884CDE151D2F83E80038A19B /* 加密与解密 */ = {
 			isa = PBXGroup;
 			children = (
 				884CDE191D2F83E80038A19B /* AppDelegate.h */,
 				884CDE1A1D2F83E80038A19B /* AppDelegate.m */,
 				884CDE1C1D2F83E80038A19B /* ViewController.h */,
 				884CDE1D1D2F83E80038A19B /* ViewController.m */,
-				884CDE491D2F84400038A19B /* NSString+MD5.h */,
-				884CDE4A1D2F84400038A19B /* NSString+MD5.m */,
+				88D8B1E21DA8E5020055BB39 /* WSEncrtpt */,
 				884CDE1F1D2F83E80038A19B /* Main.storyboard */,
 				884CDE221D2F83E80038A19B /* Assets.xcassets */,
 				884CDE241D2F83E80038A19B /* LaunchScreen.storyboard */,
 				884CDE271D2F83E80038A19B /* Info.plist */,
+				88D8B2171DA8E7C70055BB39 /* 1111.png */,
 				884CDE161D2F83E80038A19B /* Supporting Files */,
 			);
+			name = "加密与解密";
 			path = "MD5加密";
 			sourceTree = "<group>";
 		};
@@ -145,12 +164,32 @@
 			path = "MD5加密UITests";
 			sourceTree = "<group>";
 		};
+		88D8B1E21DA8E5020055BB39 /* WSEncrtpt */ = {
+			isa = PBXGroup;
+			children = (
+				88D8B1E31DA8E53F0055BB39 /* GTMBase64.h */,
+				88D8B1E41DA8E53F0055BB39 /* GTMBase64.m */,
+				88D8B1E51DA8E53F0055BB39 /* GTMDefines.h */,
+				88D8B2081DA8E5BE0055BB39 /* CusMD5.h */,
+				88D8B2091DA8E5BE0055BB39 /* CusMD5.m */,
+				88D8B20B1DA8E5CD0055BB39 /* AESCrypt.h */,
+				88D8B20C1DA8E5CD0055BB39 /* AESCrypt.m */,
+				88D8B20D1DA8E5CD0055BB39 /* NSData+Base64.h */,
+				88D8B20E1DA8E5CD0055BB39 /* NSData+Base64.m */,
+				88D8B20F1DA8E5CD0055BB39 /* NSData+CommonCrypto.h */,
+				88D8B2101DA8E5CD0055BB39 /* NSData+CommonCrypto.m */,
+				88D8B2111DA8E5CD0055BB39 /* NSString+Base64.h */,
+				88D8B2121DA8E5CD0055BB39 /* NSString+Base64.m */,
+			);
+			name = WSEncrtpt;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		884CDE121D2F83E80038A19B /* MD5加密 */ = {
+		884CDE121D2F83E80038A19B /* 加密与解密 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 884CDE401D2F83E90038A19B /* Build configuration list for PBXNativeTarget "MD5加密" */;
+			buildConfigurationList = 884CDE401D2F83E90038A19B /* Build configuration list for PBXNativeTarget "加密与解密" */;
 			buildPhases = (
 				884CDE0F1D2F83E80038A19B /* Sources */,
 				884CDE101D2F83E80038A19B /* Frameworks */,
@@ -160,14 +199,14 @@
 			);
 			dependencies = (
 			);
-			name = "MD5加密";
+			name = "加密与解密";
 			productName = "MD5加密";
-			productReference = 884CDE131D2F83E80038A19B /* MD5加密.app */;
+			productReference = 884CDE131D2F83E80038A19B /* 加密与解密.app */;
 			productType = "com.apple.product-type.application";
 		};
-		884CDE2B1D2F83E80038A19B /* MD5加密Tests */ = {
+		884CDE2B1D2F83E80038A19B /* 加密与解密Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 884CDE431D2F83E90038A19B /* Build configuration list for PBXNativeTarget "MD5加密Tests" */;
+			buildConfigurationList = 884CDE431D2F83E90038A19B /* Build configuration list for PBXNativeTarget "加密与解密Tests" */;
 			buildPhases = (
 				884CDE281D2F83E80038A19B /* Sources */,
 				884CDE291D2F83E80038A19B /* Frameworks */,
@@ -178,14 +217,14 @@
 			dependencies = (
 				884CDE2E1D2F83E80038A19B /* PBXTargetDependency */,
 			);
-			name = "MD5加密Tests";
+			name = "加密与解密Tests";
 			productName = "MD5加密Tests";
-			productReference = 884CDE2C1D2F83E80038A19B /* MD5加密Tests.xctest */;
+			productReference = 884CDE2C1D2F83E80038A19B /* 加密与解密.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		884CDE361D2F83E90038A19B /* MD5加密UITests */ = {
+		884CDE361D2F83E90038A19B /* 加密与解密UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 884CDE461D2F83E90038A19B /* Build configuration list for PBXNativeTarget "MD5加密UITests" */;
+			buildConfigurationList = 884CDE461D2F83E90038A19B /* Build configuration list for PBXNativeTarget "加密与解密UITests" */;
 			buildPhases = (
 				884CDE331D2F83E90038A19B /* Sources */,
 				884CDE341D2F83E90038A19B /* Frameworks */,
@@ -196,9 +235,9 @@
 			dependencies = (
 				884CDE391D2F83E90038A19B /* PBXTargetDependency */,
 			);
-			name = "MD5加密UITests";
+			name = "加密与解密UITests";
 			productName = "MD5加密UITests";
-			productReference = 884CDE371D2F83E90038A19B /* MD5加密UITests.xctest */;
+			productReference = 884CDE371D2F83E90038A19B /* 加密与解密.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 884CDE0E1D2F83E80038A19B /* Build configuration list for PBXProject "MD5加密" */;
+			buildConfigurationList = 884CDE0E1D2F83E80038A19B /* Build configuration list for PBXProject "加密与解密" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,9 +278,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				884CDE121D2F83E80038A19B /* MD5加密 */,
-				884CDE2B1D2F83E80038A19B /* MD5加密Tests */,
-				884CDE361D2F83E90038A19B /* MD5加密UITests */,
+				884CDE121D2F83E80038A19B /* 加密与解密 */,
+				884CDE2B1D2F83E80038A19B /* 加密与解密Tests */,
+				884CDE361D2F83E90038A19B /* 加密与解密UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +293,7 @@
 				884CDE261D2F83E80038A19B /* LaunchScreen.storyboard in Resources */,
 				884CDE231D2F83E80038A19B /* Assets.xcassets in Resources */,
 				884CDE211D2F83E80038A19B /* Main.storyboard in Resources */,
+				88D8B2181DA8E7C70055BB39 /* 1111.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D8B2161DA8E5CD0055BB39 /* NSString+Base64.m in Sources */,
+				88D8B2151DA8E5CD0055BB39 /* NSData+CommonCrypto.m in Sources */,
 				884CDE1E1D2F83E80038A19B /* ViewController.m in Sources */,
 				884CDE1B1D2F83E80038A19B /* AppDelegate.m in Sources */,
-				884CDE4B1D2F84400038A19B /* NSString+MD5.m in Sources */,
 				884CDE181D2F83E80038A19B /* main.m in Sources */,
+				88D8B2141DA8E5CD0055BB39 /* NSData+Base64.m in Sources */,
+				88D8B20A1DA8E5BE0055BB39 /* CusMD5.m in Sources */,
+				88D8B2131DA8E5CD0055BB39 /* AESCrypt.m in Sources */,
+				88D8B1E61DA8E53F0055BB39 /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +351,12 @@
 /* Begin PBXTargetDependency section */
 		884CDE2E1D2F83E80038A19B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 884CDE121D2F83E80038A19B /* MD5加密 */;
+			target = 884CDE121D2F83E80038A19B /* 加密与解密 */;
 			targetProxy = 884CDE2D1D2F83E80038A19B /* PBXContainerItemProxy */;
 		};
 		884CDE391D2F83E90038A19B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 884CDE121D2F83E80038A19B /* MD5加密 */;
+			target = 884CDE121D2F83E80038A19B /* 加密与解密 */;
 			targetProxy = 884CDE381D2F83E90038A19B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,7 +470,7 @@
 				INFOPLIST_FILE = "MD5加密/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sinfotek.MD5--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "加密与解密";
 			};
 			name = Debug;
 		};
@@ -436,7 +481,7 @@
 				INFOPLIST_FILE = "MD5加密/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sinfotek.MD5--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "加密与解密";
 			};
 			name = Release;
 		};
@@ -447,8 +492,8 @@
 				INFOPLIST_FILE = "MD5加密Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sinfotek.MD5--Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5加密.app/MD5加密";
+				PRODUCT_NAME = "加密与解密";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加密与解密.app/加密与解密";
 			};
 			name = Debug;
 		};
@@ -459,8 +504,8 @@
 				INFOPLIST_FILE = "MD5加密Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sinfotek.MD5--Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5加密.app/MD5加密";
+				PRODUCT_NAME = "加密与解密";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加密与解密.app/加密与解密";
 			};
 			name = Release;
 		};
@@ -470,7 +515,7 @@
 				INFOPLIST_FILE = "MD5加密UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sinfotek.MD5--UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "加密与解密";
 				TEST_TARGET_NAME = "MD5加密";
 			};
 			name = Debug;
@@ -481,7 +526,7 @@
 				INFOPLIST_FILE = "MD5加密UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sinfotek.MD5--UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "加密与解密";
 				TEST_TARGET_NAME = "MD5加密";
 			};
 			name = Release;
@@ -489,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		884CDE0E1D2F83E80038A19B /* Build configuration list for PBXProject "MD5加密" */ = {
+		884CDE0E1D2F83E80038A19B /* Build configuration list for PBXProject "加密与解密" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				884CDE3E1D2F83E90038A19B /* Debug */,
@@ -498,29 +543,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		884CDE401D2F83E90038A19B /* Build configuration list for PBXNativeTarget "MD5加密" */ = {
+		884CDE401D2F83E90038A19B /* Build configuration list for PBXNativeTarget "加密与解密" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				884CDE411D2F83E90038A19B /* Debug */,
 				884CDE421D2F83E90038A19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		884CDE431D2F83E90038A19B /* Build configuration list for PBXNativeTarget "MD5加密Tests" */ = {
+		884CDE431D2F83E90038A19B /* Build configuration list for PBXNativeTarget "加密与解密Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				884CDE441D2F83E90038A19B /* Debug */,
 				884CDE451D2F83E90038A19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		884CDE461D2F83E90038A19B /* Build configuration list for PBXNativeTarget "MD5加密UITests" */ = {
+		884CDE461D2F83E90038A19B /* Build configuration list for PBXNativeTarget "加密与解密UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				884CDE471D2F83E90038A19B /* Debug */,
 				884CDE481D2F83E90038A19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
